@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 #export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
 #export_file_name = 'export.pkl'
 export_file_url = 'https://drive.google.com/uc?export=download&id=1SKMfPqnBf29GAueZLXDeK27ohbl-0ZOe'
-#export_file_name = 'dog_classifier_export.pkl'
+export_file_name = 'dog_classifier_export.pkl'
 
 classes = ['dachshund', 'hazel', 'beagle']
 path = Path(__file__).parent
